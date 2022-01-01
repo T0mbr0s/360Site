@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 100vh;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.gm-style-iw {
+  width: 40vw;
+  height: 23vw;
+  min-width: 3in !important;
+  min-height: 1.6875in !important;
+  max-width: none !important;
+}
+
+.gm-style-iw-d {
+  height: 100%;
+}
+
+div.gm-style-iw-d > div {
+  height: 100%;
+}
+
+/* Illegal? Hides coopyright info */
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
