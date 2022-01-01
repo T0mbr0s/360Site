@@ -7,5 +7,5 @@ A website for sharing 360 video experiences.
 [happybirthdaynick-f9c86.firebaseapp.com](happybirthdaynick-f9c86.firebaseapp.com)  
   
 #### Production links
-[happybirthdaynick.com](happybirthdaynick.com0  
+[happybirthdaynick.com](happybirthdaynick.com)  
 [www.happybirthdaynick.com](www.happybirthdaynick.com) - redirects to happybirthdaynick.com  
