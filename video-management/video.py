@@ -19,7 +19,7 @@ def listVideos():
 
 def addVideo():
   video = {}
-  video['name'] = input("Name: ")
+  video['title'] = input("Title: ")
   video['code'] = input("YouTube Code: ")
   video['lat'] = float(input("Latitude: "))
   video['lng'] = float(input("Longitude: "))
