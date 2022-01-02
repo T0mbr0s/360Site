@@ -6,6 +6,10 @@ async function initMap() {
     zoom: 4,
     center: { lat: 30.546675, lng: -98.349126 },
     disableDefaultUI: true,
+    minZoom: 3,
+    restriction: {
+      latLngBounds: { north: 83.8, south: -57, west: -180, east: 180 }
+    },
   });
 
   // Grab json data for videos
